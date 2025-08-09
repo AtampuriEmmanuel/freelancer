@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.logo {
+    font-family: "raleway", sans-serif;
+    font-size: 24px;
+    color: #C4C4C4;
+    margin-left: 0.625rem;
+    font-weight: 700;
+    line-height: 100%;
+    width: 24px;
+    height: 28px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--primary_color);
+
+}
+
+header {
+    background-color: var(--secondary_color);
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+
+}
+.btn button{
+    color:var(--primary_color);
+      padding: 0.625rem;
+    margin-top: 0.625rem;
+    border-radius: 1.25rem;
+    margin-left: 1.625rem;
+    background-color: #FC3867;
+   
+}

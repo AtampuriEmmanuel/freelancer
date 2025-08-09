@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;
+}
+.menu{
+    background-color: white;
+     width: 30px;
+     background-color: var(--primary_color);
+     margin: 20px;
+}
+.x{
+    background-color: var(--primary_color);
+    width: 30px;
+    color: blue;
+}
+@media(max-width:700px){
+    #hideOnMobile{
+        display: none;
+        
+    }
+    .sidebar li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+    
+}
+
