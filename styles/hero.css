@@ -1,0 +1,87 @@
+.hero_image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hero h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 45.4px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #c4c4c4;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1rem;
+  color: #646464;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.hero_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 87px;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  background: #fc3867;
+  border: 1px solid #fc3867;
+}
+.hero {
+  padding: 2rem 1rem;
+  background-color: #040f28;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.hero_image {
+  order: 1;
+}
+
+.hero_text {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* styling hero section using media queries */
+@media screen and (min-width: 1024px) {
+  .hero_image {
+    order: 2;
+  }
+
+  .hero_text {
+    order: 1;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    line-height: 74.4px;
+    margin-bottom: 1.25rem;
+    text-align: left;
+  }
+
+  .hero p {
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: left;
+  }
+
+  .hero {
+    flex-direction: row;
+    gap: 8rem;
+    padding: 3.75rem 8.75rem 0;
+  }
+}

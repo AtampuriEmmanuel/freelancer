@@ -1,493 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="styles/main_section.css">
-    <link rel="stylesheet" href="styles/media.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> FREELANCER</title>
+  <head>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FREELANCER</title>
     <script src="https://unpkg.com/feather-icons"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-
-            <div class="navbar">
-                <div class="logo">
-                    <p>Freelancer</p>
-                </div>
-                <div class="sidebar">
-                    <ul class="ul_links">
-                        <i onclick=hideSidebar() data-feather="x" class="x"></i>
-
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Articles</a></li>
-                    </ul>
-                </div>
-
-                <div class="links">
-                    <ul class="">
-                        <li><a href="#" id="hideOnMobile">Home</a></li>
-                        <li><a href="#" id="hideOnMobile">About</a></li>
-                        <li><a href="#" id="hideOnMobile">Services</a></li>
-                        <li><a href="#" id="hideOnMobile">Reviews</a></li>
-                        <li><a href="#" id="hideOnMobile">Articles</a></li>
-                        <li><a href="#" class="button" id="hideOnMobile">Register</a></li>
-                        <i onclick=showSidebar() data-feather="menu" class="menu"></i>
-
-                    </ul>
-                </div>
-
-
-            </div>
-        </nav>
+      <div class="logo">
+        <p>Freelancer</p>
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#" class="nav_links">Home</a></li>
+          <li><a href="#" class="nav_links">About</a></li>
+          <li><a href="#" class="nav_links">Services</a></li>
+          <li><a href="#" class="nav_links">Reviews</a></li>
+          <li><a href="#" class="nav_links">Articles</a></li>
+          <li><a href="#" class="nav_button">Register</a></li>
+        </ul>
+      </nav>
+      <div class="menu_icon">
+        <i data-feather="menu"></i>
+      </div>
+      <div class="close_icon">
+        <i data-feather="x"></i>
+      </div>
     </header>
 
     <section class="hero">
-        <div class="begin">
-            <div class="curves">
-                <svg width="800px" height="476" viewBox="0 0 286 476" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="curve1">
-                    <path
-                        d="M285 -271C182.867 -74.2362 -57.7792 287.248 -203.304 159.077C-348.829 30.9047 -503.07 316.287 -562 475"
-                        stroke="#FC3867" />
-                </svg>
-                <svg width="800px" height="476" viewBox="0 0 286 476" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="curve2">
-                    <path
-                        d="M285 -271C182.867 -74.2362 -57.7792 287.248 -203.304 159.077C-348.829 30.9047 -503.07 316.287 -562 475"
-                        stroke="#FC3867" />
-                </svg>
-                <svg width="800px" height="476" viewBox="0 0 286 476" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="curve3">
-                    <path
-                        d="M285 -271C182.867 -74.2362 -57.7792 287.248 -203.304 159.077C-348.829 30.9047 -503.07 316.287 -562 475"
-                        stroke="#FC3867" />
-                </svg>
-                <svg width="750px" height="500px" viewBox="0 0 286 476" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="curve4">
-                    <path
-                        d="M285 -271C182.867 -74.2362 -57.7792 287.248 -203.304 159.077C-348.829 30.9047 -503.07 316.287 -562 475"
-                        stroke="#FC3867" />
-                </svg>
-
-            </div>
-
-
-            <div class="header_text">
-                <h1>Hy! <br>I Am Shamima Akhi</h1>
-                <p>Service Line helps you to turn your complex multisite, multivendor imaging environment into a uniform
-                    and
-                    balanced operation.</p>
-                <button>Get Started</button>
-            </div>
-            <div class="vertices">
-                <svg width="600px" height="748px" viewBox="0 0 800 748" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="vector1">
-                    <path d="M848 1C745.867 197.764 505.221 559.248 359.696 431.077C214.171 302.905 59.93 588.287 1 747"
-                        stroke="#FC3867" />
-                </svg>
-
-                <svg width="600px" height="748" viewBox="0 0 800 748" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="vector2">
-                    <path d="M848 1C745.867 197.764 505.221 559.248 359.696 431.077C214.171 302.905 59.93 588.287 1 747"
-                        stroke="#FC3867" />
-                </svg>
-
-                <svg width="600px" height="748" viewBox="0 0 800 748" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="vector3">
-                    <path d="M848 1C745.867 197.764 505.221 559.248 359.696 431.077C214.171 302.905 59.93 588.287 1 747"
-                        stroke="#FC3867" />
-                </svg>
-
-                <svg width="600px" height="748" viewBox="0 0 800 748" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="vector4">
-                    <path d="M848 1C745.867 197.764 505.221 559.248 359.696 431.077C214.171 302.905 59.93 588.287 1 747"
-                        stroke="#FC3867" />
-                </svg>
-
-
-
-            </div>
-
-
-
-        </div>
-
-
-        <div class="image">
-            <img src="images/7a860dc2c57a0588ceec3f84c5325ca5506b686b (1).png" alt="">
-        </div>
-
-
-        </div>
-
-        <div class="information">
-            <div class="feedback_1">
-                <h1>258+</h1>
-                <h6>Positive Feedback</h6>
-                <p>Project Complete</p>
-
-            </div>
-
-            <div class="feedback_2">
-                <h1>590k</h1>
-                <h6>Project complete</h6>
-                <p>My Achievement</p>
-
-            </div>
-
-            <div class="feedback_3">
-                <h1>28+</h1>
-                <h6>Years of Experience</h6>
-                <p>High Qualified</p>
-
-            </div>
-
-        </div>
-        <section class="more_info">
-            <div class="info">
-                <div class="benefits">
-                    <small>BEST SERVICES</small>
-                    <h1 class="get">Benefits You Get When <br> Using Our Services </h1>
-                    <p class="customize">When we can customize your needs plan to suit your needs,most clients schedule
-                        reguar interior
-                        services</p>
-
-
-                </div>
-                <div class="benefit_grid_1">
-                    <div class="icon1">
-                        <img src="images/37.png" alt="">
-                    </div>
-                    <div class="quality">
-                        <h1>Best Quality</h1>
-                        <p>It starts with our fun and easy project questionnaire where you’ll provide details.</p>
-                    </div>
-
-                </div>
-
-                <div class="benefit_grid_2">
-                    <div class="icon1">
-                        <img src="images/82.png" alt="">
-                    </div>
-                    <div class="quality">
-                        <h1>Excellent Design</h1>
-                        <p>After getting matched, your designer will message with you to collaborate on ideas.</p>
-                    </div>
-
-                </div>
-
-                <div class="benefit_grid_3">
-                    <div class="icon1">
-                        <img src="images/50.png" alt="">
-                    </div>
-                    <div class="quality">
-                        <h1>guaranteed Shipping</h1>
-                        <p>Designer incorporates feedback into the final room design and layout with.</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-        <section class="testimonials">
-            <div class="containers">
-                <div class="our_package">
-                    <h1>What we have for you</h1>
-                    <p>Some of the services we provide to meet your needs</p>
-                </div>
-                <div class="package_info_1">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/Group.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>Corporate Web Design</h1>
-                            <p>A marketing tool that is a complete solution
-                                for bringing your company within reach of
-                                your target market; Wrapped up in great
-                                UI/UX design and informative contents
-                                about your products or services.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="package_info_2">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/shopping-cart (1) 1.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>Ilustration Design</h1>
-                            <p>Illustrations can be used to give a complete
-                                picture of the content of a work. we are
-                                ready to help you create good and
-                                meaningful illustrations for you</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="package_info_3">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/inspection 1.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>Development System</h1>
-                            <p>Sell more products using a user-friendly
-                                checkout flow and simplify your sales 
-operation with our powerful CMS. Online
-                                payment, membership to invoice, and
-                                label printing are ready in the box.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="package_info_4">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/pen 1.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>Web Maintenance Service</h1>
-                            <p>UI design on a product aims to beautify the
-                                appearance of the product. While the UX
-                                design is designed to provide a pleasant
-                                experience when using the product.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="package_info_5">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/maintenance 1.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>SEO Service</h1>
-                            <p>Make your company's website more
-                                competitive on Google's search result by
-                                using your best keywords set. We also
-                                analyze and audit your current site
-                                before optimizing it.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="package_info_6">
-                    <div class="expain">
-                        <div class="icon">
-                            <img src="images/smartphone (1) 1.png" alt="">
-                        </div>
-                        <div class="more">
-                            <h1>Corporate Web Design</h1>
-                            <p>A marketing tool that is a complete solution
-                                for bringing your company within reach of
-                                your target market; Wrapped up in great
-                                UI/UX design and informative contents
-                                about your products or services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="our_work">
-                <div class="creative_work">
-                    <div class="creative">
-                        <h1>Some of my Creative work</h1>
-                        <p>An all electric vehicle offering an estimated 20 plus miles of range per charge for an
-                            affordable
-                            price is how we define but passion and persistence are the principles used to accomplish it
-                        </p>
-                    </div>
-                </div>
-
-                <div class="beautiful_images">
-                    <div><img src="creative images/a026bd3478a609748f476d2f1259e297c002ba07.png" alt="" class="palm">
-                    </div>
-                    <div><img src="creative images/d970d277440b37f10fb0e2ee6b85301860668ed2.png" alt="" class="flower">
-                    </div>
-                    <div><img src="creative images/43b1271422da6d35a8d7aa5cb4f33f66e27cc3e6.png" alt="" class="leaf">
-                    </div>
-                    <div><img src="creative images/3d360fc45a9f7f9ad592837a655792f868c1afa6.png" alt=""
-                            class="colored_leaf"></div>
-
-
-                </div>
-            </div>
-            <div class="available_offers">
-                <div class="available">
-                    <small>Our Pricing</small>
-                    <h1>available prices and cheap packages</h1>
-
-                </div>
-                <div class="cheap_package">
-                    <div class="basic">
-                        <h4>Basic</h4>
-                        <h1 class="month">$12 <span>/month</span>
-                        </h1>
-                        <p class="first">Got access only 1 day </p>
-                        <p class="second">Get free drinks and snacks</p>
-                        <p class="third">Free parking for 2 month</p>
-                        </p>
-                        <button>Get Started</button>
-                    </div>
-                    <div class="premium">
-                        <h4>Premium</h4>
-                        <h1 class="month">$24 <span>/month</span></h1>
-                        <p class="access">
-                            <img src="images/Vector 1.png" alt="">
-                            Got access only 1 day
-                        </p>
-                        <p class="free">
-                            <img src="images/Vector 1.png" alt="">
-                            Free parking for 1 month
-                        </p>
-                        <p class="park">
-                            <img src="images/Vector 1.png" alt="">
-                            Free parking for 1 month
-                        </p>
-                        <p class="for_month">
-                            <img src="images/Vector 1.png" alt="">Free parking for 1 month
-                        </p>
-                        <button class="start">Get Started</button>
-
-                    </div>
-
-                    <div class="super">
-                        <h4>Super</h4>
-                        <h1 class="month">$32 <span>/month</span>
-                        </h1>
-                        <p class="mark1">
-                            <img src="images/Vector 1.png" alt="">
-                            Got access only 1 day
-                        </p>
-                        <p class="mark2">
-                            <img src="images/Vector 1.png" alt="">
-                            Free parking for 1 year
-                        </p>
-
-                        <p class="mark3">
-                            <img src="images/Vector 1.png" alt="">
-                            Private workout in a special room
-                        </p>
-
-                        <p class="mark4">
-
-                            <img src="images/Vector 1.png" alt="">
-                            Access to the fitness community
-                        </p>
-
-                        <button class="btn_button">Get Started</button>
-
-
-                    </div>
-                </div>
-
-        </section>
-        <div class="subscribe">
-            <h1>Subscribe to get update info from us</h1>
-            <button>Get Started</button>
-        </div>
-
-
-
-
-        <script>
-            feather.replace();
-        </script>
-
-        <script>
-            function showSidebar() {
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'flex'
-            }
-            function hideSidebar() {
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'none'
-            }
-
-        </script>
-</body>
-<footer>
-    <section id="footer">
-        <div class="footer">
-            <div class="cartix">
-                <h1>Cartex</h1>
-                <p>An all Design Tools offering an estimated 20 plus Design of range per charge for an affordable price
-                    is
-                    how we define but passion and persistence</p>
-            </div>
-            <div class="social_media">
-                <img src="Vector 1.png" alt="">
-            </div>
-        </div>
-
-
-        <div class="footer">
-            <div class="inside_footer">
-                <div class="offering">
-                    <h1>Cartrix</h1>
-                    <div class="dot">
-                        <img src="images/Shape.png" alt="">
-                        <img src="images/Shape.png" alt="">
-
-                        <img src="images/Shape.png" alt="">
-
-                        <img src="images/Shape.png" alt="">
-                    </div>
-                    <p>An all Design Tools offering an estimated 20 plus Design of range per charge for an affordable
-                        price
-                        is
-                        how we define but passion and persistence</p>
-
-                </div>
-                <div class="sub">
-                    <div class="design">
-                        <p>Offers Finance</p>
-                        <p>Current Deals</p>
-                        <p>Mistery Discount</p>
-                        <p>College Discount</p>
-
-                    </div>
-
-
-                    <div class="design_tools">
-                        <p>Design Tools</p>
-                        <p>Dealer Location</p>
-                        <p>Mistery Discount</p>
-                        <p>College Discount</p>
-                    </div>
-                    <div class="help_center">
-                        <p>Offers Finance</p>
-                        <p>Dealer Location</p>
-                        <p>Mistery Discount</p>
-                        <p>College Discount</p>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-
+      <div class="hero_text">
+        <h1>Hy! I Am Shamima Akhi</h1>
+        <p>
+          Service Line helps you to turn your complex multisite, multivendor
+          imaging environment into a uniform and balanced operation.
+        </p>
+        <a class="hero_button">Get Started</a>
+      </div>
+      <div class="hero_image">
+        <img
+          src="./images/7a860dc2c57a0588ceec3f84c5325ca5506b686b (1).png"
+          alt=""
+        />
+      </div>
     </section>
-    <div class="end">
-         <p>Copyright Cartrix 2021 All Right Reserved</p>
-    </div>
-   
-   
-</footer>
+    <script>
+      feather.replace();
 
-
-
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
 </html>
