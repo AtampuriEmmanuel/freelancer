@@ -85,3 +85,72 @@
     padding: 3.75rem 8.75rem 0;
   }
 }
+
+.statistis h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+  color: #070707;
+}
+
+.statistis h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+  color: #070707;
+}
+.statistis p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  margin-bottom: 10px;
+}
+.statistis {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  paddin;
+}
+.feedback,
+.project {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+/* styling the experience section for desktop */
+@media screen and (min-width: 1024px) {
+  .statistis h1 {
+    font-size: 4rem;
+  }
+
+  .statistis h4 {
+    font-size: 1.125rem;
+  }
+
+  .statistis {
+    flex-direction: row;
+    justify-content: center;
+    padding: 3.265rem 16.813rem;
+    text-align: left;
+  }
+
+  .feedback,
+  .project {
+    border-bottom: none;
+    padding: 0px 4.375rem;
+    border-right: 2px solid #d8d8d8;
+  }
+
+  .years {
+    margin-left: 1.25rem;
+  }
+}
