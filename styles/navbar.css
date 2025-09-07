@@ -1,0 +1,78 @@
+/*Styling for mobiles*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #c4c4c4;
+}
+
+header {
+  background-color: #040f28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.nav_links {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+  color: #646464;
+  cursor: pointer;
+}
+
+.nav_links:hover {
+  color: #c4c4c4;
+}
+
+.nav_button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid #c4c4c4;
+  color: #ffffff;
+  border-radius: 5.438rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu_icon {
+  color: #c4c4c4;
+}
+
+.close_icon {
+  color: #c4c4c4;
+  display: none;
+}
+
+#navbar ul {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Styling for desktop using media queries*/
+@media screen and (min-width: 1024px) {
+  .menu_icon,
+  .close_icon {
+    display: none;
+  }
+
+  #navbar ul {
+    flex-direction: row;
+    gap: 3.125rem;
+    display: flex;
+  }
+
+  header {
+    padding: 3.5rem 8.75rem 3.75rem;
+  }
+}
