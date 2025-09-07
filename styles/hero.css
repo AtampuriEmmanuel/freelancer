@@ -426,32 +426,196 @@
 }
 
 /* styling for creative_works section  for desktop */
-@media screen and (min-width:1024px){
-.creative_works {
-  padding:6.875rem 8.75rem 0 ;
-}
+@media screen and (min-width: 1024px) {
+  .creative_works {
+    padding: 6.875rem 8.75rem 0;
+  }
 
   .creative_text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.125rem;
- }
+    font-size: 2.5rem;
+    margin-bottom: 1.125rem;
+  }
 
- .creative_text p {
-  margin-bottom:3.5rem ;
-  text-align: center;
- }
+  .creative_text p {
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
 
- .creative_text {
-  padding: 0 18.35rem;
- }
+  .creative_text {
+    padding: 0 18.35rem;
+  }
 
- .creative_images img {
-height: 320px; 
-}
+  .creative_images img {
+    height: 320px;
+  }
 
   .creative_images {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
+  }
+}
+
+/* styling for the prices section for mobile */
+.prices {
+  background-color: #040f28;
+  padding: 1.25rem 1rem;
+}
+
+.pricing h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 0.625rem;
+}
+
+.pricing h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+}
+
+.pricing {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .prices {
+    padding: 0 14.375rem;
+  }
+
+  .pricing h1 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    margin-bottom: 4.438rem;
+  }
+
+  .pricing h4 {
+    margin-bottom: 1rem;
+  }
+}
+
+.price_cards h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 100%;
+  color: #000000;
+}
+
+.priceCards h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 100%;
+  color: #000000;
+}
+
+.priceCards span {
+  font-weight: 400;
+  font-size: 0.625rem;
+}
+
+.priceCards li {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.basic,
+.premium,
+.super {
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 1rem;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.625rem 0;
+  white-space: nowrap;
+}
+
+.price_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.priceCards ul {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+
+.priceCards ul li {
+  margin: 0.625rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.priceCards button {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
+  padding: 0.625rem 2rem;
+  border-radius: 3.125rem;
+  border: 1.2px solid #272727;
+}
+
+.premium ul li::before,
+.super ul li::before {
+  content: url(/images/Vector\ 1.png);
+  background-color: #272727;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.premiumBtn button {
+  background-color: #fc3867;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  .priceCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+  }
+
+  .priceCards span {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .basic,
+  .premium,
+  .super {
+    width: 17.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .price1 {
+    text-align: left;
+    margin-left: -100px;
   }
 }

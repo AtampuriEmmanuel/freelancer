@@ -12,7 +12,7 @@ body {
   height: 100dvh;
 }
 
-li {
+#navbar ul  li {
   list-style: none;
 }
 
