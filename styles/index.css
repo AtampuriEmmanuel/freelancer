@@ -10,9 +10,10 @@
 
 body {
   height: 100dvh;
+  background-color: #040F28;
 }
 
-#navbar ul  li {
+li {
   list-style: none;
 }
 
